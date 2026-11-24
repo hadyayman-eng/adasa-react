@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: #0a0a0a;
+  color: white;
+}
+
+.hero-bg {
+  background-image:
+    radial-gradient(circle at center, rgba(249, 115, 22, 0.15), transparent 60%),
+    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 100% 100%, 90px 90px, 90px 90px;
+}
